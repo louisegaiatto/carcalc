@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CarCalc</title>
+		<link rel="stylesheet" type="text/css" href="style_car.css">
+		<script src="js_car.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	</head>
+	<body ng-app>
+		<nav class="nav_home">
+			<a href="#Quem Somos">Quem Somos</a>
+		</nav>
+
+
+		
+		<div id="main">
+			<h1 class="title">CarCalc</h1>
+
+			Pesquisa por valor ... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		</div>
+
+		<div id="value" class="center">
+			
+				
+					<select id="dropdown" name="selectedCar" ng-model="data.selectedCar" onchange="validateCar()">
+						 <option value="" disabled selected>Selecione um carro</option>
+						 <option value="Volkswagen Gol 2016">Volkswagen Gol 2016</option>
+						 <option value="Fiat Uno 2015">Fiat Uno 2015</option>
+						 <option value="Fiat Palio 2016">Fiat Palio 2016</option>
+						 <option value="Volkswagen Fox 2015">Volkswagen Fox 2015</option>
+					</select>
+				
+		</div>
+
+		<div id="result">
+			<div id="left">
+				<article>
+				Place where the result will shown...
+				</article>
+			</div>
+			<div id="rigth">
+				result image...
+			</div>
+
+		</div>
+
+		
+			
+
+	</body>
+</html>

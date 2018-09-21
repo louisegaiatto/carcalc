@@ -1,0 +1,85 @@
+a {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.nav_home {
+	padding: 30px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+
+.title {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	font-family: Chalkduster, fantasy;
+	font-size: 60px;
+}
+
+/*div {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: black;
+}*/
+
+#main {
+	padding: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 50%;
+ 	width:  70%;
+ 	font-family: sans-serif;
+}
+
+#value {
+    	padding: 20px;
+		margin-left: 15%;
+		margin-right: 15%;
+		height: 50%;
+ 		width:  70%;
+}
+
+#number {
+	vertical-align: center;
+	margin-left: 40%;
+    height: 30px;
+ 	width:  200px;
+ 	border-radius: 10px;
+ 	
+}
+
+#demo {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#result {
+		padding: 20px;
+		margin-left: 15%;
+		margin-right: 15%;
+		height: 50%;
+ 		width:  70%;
+}
+
+#left {
+	float: left;
+	width:  45%;
+}
+
+#rigth {
+	float: right;
+	width:  45%;
+}
+
+article {
+	text-align: center;
+}
+
