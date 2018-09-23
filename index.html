@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <script src="./vendor/angular.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script> -->
+    <link rel="stylesheet" href="./vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/module-car-search.css">
+    <link rel="stylesheet" href="./styles/module-price-search.css">
+    <script src="./app/database.js"></script>
+    <script src="./app/component-pane.js"></script>
+    <script src="./app/component-tabs.js"></script>
+    <script src="./app/component-select.js"></script>
+    <script src="./app/component-input.js"></script>
+    <script src="./app/module-car-search.js"></script>
+    <script src="./app/module-price-search.js"></script>
+    <script src="./app/app.js"></script>
+  </head>
+  <body>
+    <carcalctabs>
+      <carcalcpane title="Pesquisa por carro">
+          <carsearchmodule></carsearchmodule>
+      </carcalcpane>
+      <carcalcpane title="Pesquisa por valor gasto">
+          <pricesearchmodule></pricesearchmodule>
+      </carcalcpane>
+      <carcalcpane title="Quem somos">
+        <h2>sou a Lulu =)</h2>
+      </carcalcpane>
+    </carcalctabs>
+  </body>
+</html>
