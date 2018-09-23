@@ -1,0 +1,9 @@
+.carcalc-pricesearch-module__vehicle {
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.carcalc-pricesearch-module__vehicle img {
+  width: 200px;
+}
